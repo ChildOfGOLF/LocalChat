@@ -1,0 +1,10 @@
+﻿<Window x:Class="LocalChat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chat" Height="350" Width="525">
+    <Grid>
+        <TextBox Name="History" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="490" IsReadOnly="True"/>
+        <TextBox Name="MessageInput" HorizontalAlignment="Left" Height="50" Margin="10,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="490"/>
+        <Button Content="Отправить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="425,280,0,0" Click="SendMessage_Click"/>
+    </Grid>
+</Window>
